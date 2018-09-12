@@ -1,0 +1,124 @@
+
+.menu {
+	background: url(./images/bg.jpg);
+	width: 1520px;
+	height: 1100px;
+}
+.content {
+	background: url(./images/bs1.png);
+	background-size: 900px;
+	height:700px;
+	width: 785px;
+	float:left;
+	 background-repeat:no-repeat;
+}
+.menu1 {
+	padding:0px 10px 0px 110px;
+	line-height: 40px;
+	float:left;
+	
+	
+}
+.menu1 li{
+	 list-style:none;
+	 border: 1px solid green;	
+     border-width: thin;
+}
+.menu1 li:hover{
+	background:#CDE2CD;
+	width: 172px;
+	border-radius: 10px 10px 10px 10px;
+}
+.content li {
+	width: 15%;
+    padding: 40px 70px 0px 60px;
+    float: left;
+	text-align: center;
+	display: inline-block;
+	background-color: #FFFFCC;
+	border-style:inset;
+}
+
+.tooltip{
+	position:relative;
+	display:inline-block;
+	border-bottom: 1px solid #DDD;
+	text-align:center;
+	
+}
+.tooltip_text{
+	background: url(./images/tt-bg.jpg);
+	background-size:410px 600px;
+	z-index: 100;
+}
+.tooltip_text{
+	padding: 100px 50px 0px 50px;
+	opacity:0;
+	visibility:hidden;
+	position:absolute;
+	margin-top:5px;
+	right:-410px;
+	top:-150px;
+	width:300px;
+	height:0px;
+	border-radius:4px;
+	
+	color:black;
+	transition:height is, opacity is;
+	
+}
+.tooltip:hover .tooltip_text{
+	visibility:visible;
+	height:500px;
+	opacity:1;
+}
+.tooltip_text b{
+	color:blue;
+}
+
+.scroll {
+	float:left;
+	
+}
+.scroll b {
+	color:blue;
+	
+}
+
+/*#slider  {
+    margin: 0px auto;
+    width: 998px;
+    height: 300px;
+    border: 1px solid#6633ff;
+    position: relative;
+     
+   
+    
+}
+.slide  {
+    margin: 0px auto;
+    width: 998px;
+    height: 300px;
+    
+    
+}
+#prev  {
+    text-transform: uppercase;
+    top: 130px;
+    left: 0px;
+    position: absolute;
+}
+#next {
+    text-transform: uppercase;
+    top: 130px;
+    right: 0px;
+    position: absolute;
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+    background: #ccffcc;
+}*/
